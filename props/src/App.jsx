@@ -1,9 +1,9 @@
 import Student from "./components/Student";
 import products from "./data/products";
+import Details from "./components/Details";
 
 function App() {
   let arr = ["A", "B", "C", "D", "E"];
-  
   
   return (
     <>
@@ -23,6 +23,8 @@ function App() {
           <p>Description: {product.desc}</p>
         </div>
       ))}
+
+      <Details ></Details>
 
 
     </>
